@@ -68,7 +68,7 @@ lib/
   utils.ts
 docs/
   report.md
-  video-script.md
+  
 public/
   screenshots/
 ```

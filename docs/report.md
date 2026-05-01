@@ -385,7 +385,10 @@ The core algorithm and logic were implemented by us manually.
 4. Next.js Documentation. https://nextjs.org/
 5. Recharts Documentation. https://recharts.org/
 6. React Flow Documentation. https://reactflow.dev/
+7. workflow of Uber and Doordash resource allocation system. 
 
 ## 10. Appendix
 - **GitHub link:**  https://github.com/utkarsh430/CrisisRoute
 - **Deployment link:**   localhost:3000
+- **Report:** /docs/report.md
+

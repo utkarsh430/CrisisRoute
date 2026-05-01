@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Activity, ArrowRightLeft, BookOpen, House, LayoutDashboard, Map, ShieldPlus } from 'lucide-react';
+import { Activity, ArrowRightLeft, BookOpen, House, LayoutDashboard, Map, Network, ShieldPlus } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'Home', icon: House },
@@ -11,6 +11,7 @@ const navItems = [
   { href: '/results', label: 'Results', icon: ArrowRightLeft },
   { href: '/map', label: 'Map', icon: Map },
   { href: '/algorithms', label: 'Algorithms', icon: BookOpen },
+  { href: '/code-structure', label: 'Code Flow', icon: Network },
 ];
 
 export function Navbar() {
@@ -22,21 +23,12 @@ export function Navbar() {
         <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
           <Link
             href="/"
-            className="group flex items-start gap-3 rounded-2xl border border-transparent px-2 py-2 transition hover:border-white/10 hover:bg-white/5"
+            className="group flex items-center gap-3 rounded-2xl border border-transparent px-2 py-2 transition hover:border-white/10 hover:bg-white/5"
           >
             <div className="rounded-2xl bg-gradient-to-br from-sky-400/30 via-brand-500/20 to-emerald-400/20 p-3 text-sky-200 ring-1 ring-white/10">
               <Activity className="h-5 w-5" />
             </div>
-            <div className="space-y-1">
-              <div className="flex items-center gap-2">
-                <span className="text-base font-semibold tracking-wide text-white">CrisisRoute</span>
-                <span className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.2em] text-emerald-200">
-                  Local-first
-                </span>
-              </div>
-              <p className="text-sm text-slate-300">Humanitarian crisis response optimization</p>
-              <p className="text-xs text-slate-500">Allocate limited relief supplies and evaluate safer delivery corridors</p>
-            </div>
+            <span className="text-2xl font-semibold tracking-wide text-white">CrisisRoute</span>
           </Link>
 
           <div className="flex flex-wrap gap-2">

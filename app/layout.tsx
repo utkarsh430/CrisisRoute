@@ -28,7 +28,7 @@ export default function RootLayout({
             <section className="mb-8 rounded-[2rem] border border-white/10 bg-slate-950/45 px-6 py-6 shadow-soft backdrop-blur-sm sm:px-8">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
                 <div className="max-w-3xl space-y-3">
-                  <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-300">Humanitarian operations studio</p>
+                  <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-300">Humanitarian operations</p>
                   <div>
                     <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">CrisisRoute</h1>
                     <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
@@ -44,7 +44,7 @@ export default function RootLayout({
                     <p className="mt-2 text-sm text-white">Allocation priority, route safety, and scenario comparison</p>
                   </div>
                   <div className="rounded-2xl border border-emerald-400/20 bg-emerald-400/10 p-4">
-                    <p className="text-xs uppercase tracking-[0.25em] text-emerald-200">Capstone style</p>
+                    <p className="text-xs uppercase tracking-[0.25em] text-emerald-200">Operational clarity</p>
                     <p className="mt-2 text-sm text-white">Polished analytics interface for clear operational decisions</p>
                   </div>
                 </div>
