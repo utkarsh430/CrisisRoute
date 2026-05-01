@@ -370,9 +370,8 @@ The project applies course concepts in several ways:
 ## 8. AI Usage
 AI was used for - 
 - enhance and design the graphical interface of frontend website and to make it look aesthetic.
-- documentation in a proper format.
 - eslint was used to analyse bugs in javascript frontend deployment.
-
+- codeflow (open source tool) for converting folder architecture into graph images.
 The core algorithm and logic were implemented by us manually. 
 
 
